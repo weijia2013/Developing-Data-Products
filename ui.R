@@ -20,9 +20,9 @@ shinyUI(pageWithSidebar(
 
                 sliderInput("freq",
                             "Minimum word frequency:",
-                            min = 7,
-                            max = 12,
-                            value = 9)
+                            min = 15,
+                            max = 50,
+                            value = 25)
                 ),
         mainPanel(
                 tabsetPanel(
