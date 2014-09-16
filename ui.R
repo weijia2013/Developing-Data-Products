@@ -11,7 +11,7 @@ shinyUI(pageWithSidebar(
                   prediction will be displayed in the plot to the right. 
                   The initial figure is a demo based on 7 days timeseries plot."),
                 br(),
-                p("Please be patient for Initialization."),
+                p("Please be patient for Initialization. If you encounter the crash of the app, please refresh your browser. Thanks for you waiting. :-)"),
                 sliderInput("ph",
                             "Prediction hours:",
                             min = 1,
@@ -44,6 +44,7 @@ shinyUI(pageWithSidebar(
                                    Wordcloud can illustrate the reasons why passengers post that opinion."),
                                  br(),
                                  br(),
+                                 #HTML('<div style="clear: left;"><img src="au.png" alt="" style="float: left; margin-right:5px" /></div>'),
                                  strong('Author'),
                                  p('Weijia Chen',br(),
                                    'MPhil at Newcastle University',br(),
